@@ -1,0 +1,10 @@
+{
+  "name": "prohouse-solutions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ProHouse Solutions — Colombo property operating system",
+  "scripts": {
+    "start": "node --experimental-sqlite server.js",
+    "reset": "node --experimental-sqlite server.js --reset"
+  }
+}
